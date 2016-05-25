@@ -2,8 +2,50 @@
 <html>
 	<head>
 		<title>CSS DEMO</title>
+		<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+		<style>
+			.internalH1{
+				color 			: aqua;
+			}
+
+			#primaryList li{
+				font-weight 	: bold;
+				font-size 		: 12pt;
+				font-family 	: sans-serif;
+				letter-spacing 	: 12px;
+				line-height 	: 20px;
+				color 			: pink;
+				font-style 		: italic;
+			}
+		</style>
 	</head>
 	<body>
+
+		<h1>To Do List:</h1>
+		<h1 class="specialH1">To Do List:</h1>
+		<h1 class="internalH1">To Do List:</h1>
+		<h1 style="color:purple;">To Do List:</h1>
+
+		<ol id="primaryList">
+			<li class="complete">
+				Laundry
+			</li>
+			<li class="complete">
+				Get Kitty Food
+			</li>
+			<li class="inProgress">
+				<b>H</b>omework
+			</li>
+			<li class="undone">
+				Groceries
+			</li>
+			<li class="undone">
+				Gym
+			</li>
+			<li class="complete">
+				Play Nintendo
+			</li>
+		</ol>
 
 	</body>
 </html>

@@ -1,0 +1,32 @@
+body{
+	background-color 	: rgba(21,51,11,1);
+}
+
+h1{
+	color 				: pink;
+}
+
+.specialH1{
+	color 				: green;
+}
+
+.complete{
+	background-color 	: rgba(84, 204, 45, 0.5);
+}
+
+.inProgress{
+	background-color 	: #CC9818;
+}
+
+.undone{
+	background-color 	: grey;
+}
+
+#primaryList{
+	background-color 	: black;
+}
+
+.internalH1{
+	color 			: red;
+}
+
